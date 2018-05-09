@@ -1,15 +1,3 @@
----
-title: "TENTATIVE PROJECT TITLE"
-author: "NAME"
-output:
-  html_document:
-    css: https://stat.duke.edu/courses/Summer15/sta104.01-1/post/projects/project_template.css
-    fig_height: 2.75
-    fig_width: 4
-    highlight: pygments
-    theme: cerulean
----
-
 ```{r include=FALSE, cache=FALSE}
 # DO NOT REMOVE
 # THIS IS FOR SETTING SOME PLOTTING PARAMETERS SO THAT YOUR PLOTS DON'T TAKE UP TOO MUCH SPACE
