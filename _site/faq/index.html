@@ -5,18 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sta 104</title>
 
-  <link rel="stylesheet" href="/courses/Summer15/sta104.01-1/noita/foundation/css/normalize.css">
-  <link rel="stylesheet" href="/courses/Summer15/sta104.01-1/noita/foundation/css/foundation.min.css">
+  <link rel="stylesheet" href="/courses/Summer18/sta104.001-1/noita/foundation/css/normalize.css">
+  <link rel="stylesheet" href="/courses/Summer18/sta104.001-1/noita/foundation/css/foundation.min.css">
   
 
-  <script src="/courses/Summer15/sta104.01-1/noita/foundation/js/vendor/modernizr.js"></script>
+  <script src="/courses/Summer18/sta104.001-1/noita/foundation/js/vendor/modernizr.js"></script>
 </head>
 <body>
 
   <div class="top-bar" data-topbar id="topbar">
     <ul class="title-area">
       <li class="name">
-        <h1><a href="/courses/Summer15/sta104.01-1">Sta 104 - Data Analysis and Statistical Inference (Summer 2015)</a></h1>
+        <h1><a href="/courses/Summer18/sta104.001-1">Sta 104 - Data Analysis and Statistical Inference (Summer 2018)</a></h1>
       </li>
       <li class="toggle-topbar menu-icon">
         <a href="#topbar"><span>Menu</span></a>
@@ -28,25 +28,25 @@
       
         <li>
           
-            <a href="/courses/Summer15/sta104.01-1/" class="">Schedule</a>
+            <a href="/courses/Summer18/sta104.001-1/" class="">Schedule</a>
           
         </li>
       
         <li>
           
-            <a href="/courses/Summer15/sta104.01-1/info/" class="">Info</a>
+            <a href="/courses/Summer18/sta104.001-1/info/" class="">Info</a>
           
         </li>
       
         <li>
           
-            <a href="/courses/Summer15/sta104.01-1/syllabus/" class="">Syllabus</a>
+            <a href="/courses/Summer18/sta104.001-1/syllabus/" class="">Syllabus</a>
           
         </li>
       
         <li>
           
-            <a href="/courses/Summer15/sta104.01-1/resources/" class="">Resources</a>
+            <a href="/courses/Summer18/sta104.001-1/resources/" class="">Resources</a>
           
         </li>
       
@@ -64,13 +64,13 @@
       
         <li>
           
-            <a href="/courses/Summer15/sta104.01-1/links/" class="">Links</a>
+            <a href="/courses/Summer18/sta104.001-1/links/" class="">Links</a>
           
         </li>
       
         <li>
           
-            <a href="/courses/Summer15/sta104.01-1/faq/" class="">FAQ</a>
+            <a href="/courses/Summer18/sta104.001-1/faq/" class="">FAQ</a>
           
         </li>
       
@@ -96,7 +96,7 @@
   <div class="row">
   <div class="column">
     <div style="padding-left:2em;">
-    <p>This page will be updated as the class progresses with common questions I receive from students. I recommend that you check this page when you have a question to see if it has already been answered. If not, send me an email, and if the answer to your question might benefit the whole class I’ll post it here as well. Note that references are to the <a href="http://www.openintro.org/stat/textbook.php?stat_book=os">OpenIntro Statistics, 2nd Edition</a>.</p>
+    <p>I recommend that you check this page when you have a question to see if it has already been answered. If not, post it on Piazza if it is not already there. Note that references are to the <a href="http://www.openintro.org/stat/textbook.php?stat_book=os">OpenIntro Statistics, 2nd Edition</a>.</p>
 
 <p>If you have a question about something in the textbook that looks like it might be a typo or doesn’t make sense, first check to see if it’s been corrected already on the <a href="https://docs.google.com/spreadsheet/ccc?key=0AuDHaDEbiOGkdDhLbXVsZHR4U0RDaUsxR2dQMEJpOFE#gid=0">textbook errata</a>. If not, send me an email about it so that I can confirm whether it’s a typo or not, and if it is, it’ll be added to the list.</p>
 
@@ -197,7 +197,7 @@
   </li>
   <li>
     <ul>
-      <li>Error: code outside of chunk - In your markdown document all R code should be in code chunks indicated by the three ticks and the <code>{r}</code> (it is highlighted in a light gray band). If you insert your code outside of these allotted code chunk areas, the code won’t process and the document might give you an error or might just not look how you expect it to.</li>
+      <li>Error: code outside of chunk - In your markdown document all R code should be in code chunks indicated by the three ticks and the <code class="highlighter-rouge">{r}</code> (it is highlighted in a light gray band). If you insert your code outside of these allotted code chunk areas, the code won’t process and the document might give you an error or might just not look how you expect it to.</li>
       <li>Solution: Place all code in the allotted code chunks. If this was the only issue, it should now be resolved, and your document should now look how you expect it to.</li>
     </ul>
   </li>
@@ -209,7 +209,7 @@
 
 <p><a name="r2">If I have counts for categorical data in a table form how do I recreate the data in R?</a></p>
 
-<p>You can make use of the <code>rep()</code> (repeat) function in R to do this.</p>
+<p>You can make use of the <code class="highlighter-rouge">rep()</code> (repeat) function in R to do this.</p>
 
 <p>Here is a small example. Let’s say I have the following contingency table:</p>
 
@@ -246,29 +246,29 @@
 
 <p>In order to recreate a data set where each row represents one respondent, use the following code:</p>
 
-<pre><code>mature = c(rep("mature mom", 132), rep("younger mom", 867))
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mature = c(rep("mature mom", 132), rep("younger mom", 867))
 married = c(rep("married", 25), rep("not married", 107), rep("married", 361), rep("not married", 506))
-</code></pre>
+</code></pre></div></div>
 
 <p>You can make a table using the following code to double check that the data looks like the original contingency table.</p>
 
-<pre><code>table(mature, married)
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table(mature, married)
+</code></pre></div></div>
 
 <p>You can also create a new data set where these data are variables make up the columns of the data frame.</p>
 
-<pre><code>momdata = as.data.frame(cbind(mature,married))
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>momdata = as.data.frame(cbind(mature,married))
+</code></pre></div></div>
 
 <p>Once you have your data you can write it out to a .csv file using the following.</p>
 
-<pre><code>write.csv(momdata, file = "moms.csv", quote = FALSE, row.names = FALSE)
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>write.csv(momdata, file = "moms.csv", quote = FALSE, row.names = FALSE)
+</code></pre></div></div>
 
-<p>You should now see a file called <em>mom.csv</em> in the Files window. You can select that file and export it (check the box next to the file, click on More, and then Export…) so that you can have a copy of this file on your computer, and can submit it with your project. For more information on the <code>write.csv()</code> function, use the following.</p>
+<p>You should now see a file called <em>mom.csv</em> in the Files window. You can select that file and export it (check the box next to the file, click on More, and then Export…) so that you can have a copy of this file on your computer, and can submit it with your project. For more information on the <code class="highlighter-rouge">write.csv()</code> function, use the following.</p>
 
-<pre><code>?write.csv
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>?write.csv
+</code></pre></div></div>
 
 <hr />
 
@@ -288,10 +288,10 @@ married = c(rep("married", 25), rep("not married", 107), rep("married", 361), re
 
 <p>In order to use this dataset as a part of your write up, you need to include a piece of code in your .Rmd file to read the data in. Suppose your data file’s name is “d_prj1.csv”, and you want to call your dataset “d” then use the following:</p>
 
-<pre><code>```{r}
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```{r}
 d = read.csv("d_prj1.csv")
 ```
-</code></pre>
+</code></pre></div></div>
 
 <p>You can also simply copy and paste the code R automatically generates when you import the data file into an R chunk in your markdown document.</p>
 
@@ -299,10 +299,10 @@ d = read.csv("d_prj1.csv")
 
 <p>In order to use this dataset as a part of your write up, you need to include a piece of code in your .Rmd file to read the data in. Suppose your data file’s name is “d_prj1.Rdata”, use the following:</p>
 
-<pre><code>```{r}
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```{r}
 load("d_prj1.Rdata")
 ```
-</code></pre>
+</code></pre></div></div>
 
 <p>You can also simply copy and paste the code R automatically generates when you import the data file into an R chunk in your markdown document.</p>
 
@@ -332,15 +332,15 @@ load("d_prj1.Rdata")
   <li>First, generate random numbers between 1 and the number of rows in your original dataset, and store these.</li>
 </ul>
 
-<pre><code>rows_to_sample = sample(1:nrow(original_data), 1000, replace = FALSE)
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>rows_to_sample = sample(1:nrow(original_data), 1000, replace = FALSE)
+</code></pre></div></div>
 
 <ul>
   <li>Then, grab the rows corresponding to the random numbers from the previous step, and store them in a new data set.</li>
 </ul>
 
-<pre><code>samp_data = original_data[rows_to_sample, ]
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>samp_data = original_data[rows_to_sample, ]
+</code></pre></div></div>
 
 <hr />
 
@@ -349,63 +349,65 @@ load("d_prj1.Rdata")
 <p>The simplest approach is to use the plot function on the entire dataset. The second approach is to use a new function from a contributed R package to get a much fancier plot. The two downsides with the second option are (1) It doesn’t handle NAs automatically (this may not be an issue with your second project since there aren’t many NAs), and (2) it takes a while to generate the plot so you’ll need to be patient. The examples below use the ACS data from the multiple regression lab.</p>
 
 <ul>
-  <li><code>plot</code> function:</li>
+  <li><code class="highlighter-rouge">plot</code> function:</li>
 </ul>
 
-<pre><code>plot(acs)
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plot(acs)
+</code></pre></div></div>
 
 <p>In this output you’ll see that the lower diagonal of the plot matrix has repetitive information from the upper diagonal (same plots, with axes reversed). Also, depending on the number of variables you have, the plots may be small. If R complains about the plotting window being too small, just increase the size of your plotting window by dragging the margins in RStudio. You can use this to quickly determine which variables are related, then make single plots for those relationships that you’d like to view more closely. If you want to plot only certain variables, you can first make a subset, and then use the plot function.</p>
 
 <p><em>Subsetting based on column number:</em> Only plot relationships between variables in columns 1 through 5.</p>
 
-<pre><code>plot(acs[,1:5])
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plot(acs[,1:5])
+</code></pre></div></div>
 
 <p><em>Subsetting based on variable names:</em> First subset the data selecting variables that are numerical, and them plot the relationships between them.</p>
 
-<pre><code>acs_num = subset(acs,select = c("income","hrs_work","age","time_to_work"))
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>acs_num = subset(acs,select = c("income","hrs_work","age","time_to_work"))
 plot(acs_num)
-</code></pre>
+</code></pre></div></div>
 
-<p><br />
-* <code>ggpairs</code> function from the GGally package:</p>
+<p>\</p>
+<ul>
+  <li><code class="highlighter-rouge">ggpairs</code> function from the GGally package:</li>
+</ul>
 
-<pre><code>install.packages("GGally")  # install package
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>install.packages("GGally")  # install package
 library(GGally)             # load package
 acs_noNA=na.omit(acs)       # omit rows with NAs
 ggpairs(acs_noNA)
-</code></pre>
+</code></pre></div></div>
 
 <p>If you only want to plot certain columns of the dataset (say, 1 through 5), use</p>
 
-<pre><code>ggpairs(acs_noNA, columns = c(1:5))
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ggpairs(acs_noNA, columns = c(1:5))
+</code></pre></div></div>
 
-<p>This might be very useful since otherwise the plot gets very busy. Another parameter you might want to change in the <code>ggpairs</code> function is the font size of the correlation coefficients (they’re pretty small by default).</p>
+<p>This might be very useful since otherwise the plot gets very busy. Another parameter you might want to change in the <code class="highlighter-rouge">ggpairs</code> function is the font size of the correlation coefficients (they’re pretty small by default).</p>
 
-<pre><code>ggpairs(acs_noNA, columns = c(1:5), params=list(corSize=10))
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ggpairs(acs_noNA, columns = c(1:5), params=list(corSize=10))
+</code></pre></div></div>
 
 <hr />
 
 <p><a name="r8">8. How can I calculate confidence intervals for the slopes in linear regression using R?</a></p>
 
-<p>You can calculate confidence intervals for slopes manually (finding the appropriate t* for the degrees of freedom and confidence level you need), or you can use the <code>confint</code> function in R. The example below uses the ACS dataset from the multiple regression lab. You can either get confidence intervals for all slopes using:</p>
+<p>You can calculate confidence intervals for slopes manually (finding the appropriate t* for the degrees of freedom and confidence level you need), or you can use the <code class="highlighter-rouge">confint</code> function in R. The example below uses the ACS dataset from the multiple regression lab. You can either get confidence intervals for all slopes using:</p>
 
-<pre><code>m = lm(income ~ gender + hrs_work, data = acs)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>m = lm(income ~ gender + hrs_work, data = acs)
 confint(m)
-</code></pre>
+</code></pre></div></div>
 
 <p>or for one parameter at a time using:</p>
 
-<pre><code>confint(m, parm = "hrs_work")
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>confint(m, parm = "hrs_work")
+</code></pre></div></div>
 
 <p>Use the help file for the function to figure out how to change the confidence level.</p>
 
-<pre><code>?confint
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>?confint
+</code></pre></div></div>
 
 <hr />
 
@@ -415,59 +417,59 @@ confint(m)
 
 <p>Let’s illustrate this using the ACS dataset:</p>
 
-<pre><code>download("http://stat.duke.edu/~mc301/data/acs.RData", destfile = "acs.RData")
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>download("http://stat.duke.edu/~mc301/data/acs.RData", destfile = "acs.RData")
 load("acs.RData")
-</code></pre>
+</code></pre></div></div>
 <p><br />
-<strong>categorical -&gt; categorical:</strong> One of the variables in this dataset is <code>race</code>, with levels <code>white</code>, <code>black</code>, <code>asian</code>, and <code>other</code> Suppose we don’t want this fine grained information and we’re interested in whether the respondent is <code>white/black</code> or <code>asian/other</code>. In order not to overwrite this variable we’ll create a new variable in our dataset, called <code>race_new</code>. Then, we’ll fill in the information for this variable:</p>
+<strong>categorical -&gt; categorical:</strong> One of the variables in this dataset is <code class="highlighter-rouge">race</code>, with levels <code class="highlighter-rouge">white</code>, <code class="highlighter-rouge">black</code>, <code class="highlighter-rouge">asian</code>, and <code class="highlighter-rouge">other</code> Suppose we don’t want this fine grained information and we’re interested in whether the respondent is <code class="highlighter-rouge">white/black</code> or <code class="highlighter-rouge">asian/other</code>. In order not to overwrite this variable we’ll create a new variable in our dataset, called <code class="highlighter-rouge">race_new</code>. Then, we’ll fill in the information for this variable:</p>
 
-<pre><code>acs$race_new[acs$race == "white" | acs$race == "black"] = "white/black"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>acs$race_new[acs$race == "white" | acs$race == "black"] = "white/black"
 acs$race_new[acs$race == "asian" | acs$race == "other"] = "asian/other"
-</code></pre>
+</code></pre></div></div>
 <p><br />
-Remember that <code>|</code> means “or”.</p>
+Remember that <code class="highlighter-rouge">|</code> means “or”.</p>
 
 <p>Lastly, we want to make sure R recognizes this variable as a categorical variable, which R calls factor.</p>
 
-<pre><code>acs$race_new = as.factor(acs$race_new)
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>acs$race_new = as.factor(acs$race_new)
+</code></pre></div></div>
 <p><br />
 Now if we peek at the summary for this variable we will see only the two levels we were interested in:</p>
 
-<pre><code>summary(acs$race_new)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>summary(acs$race_new)
    asian/other white/black 
            239        1761
-</code></pre>
+</code></pre></div></div>
 <p><br />
-<strong>numerical -&gt; categorical:</strong> Let’s give one more example, this time creating a new variable based on an existing numerical variable. A quick peek at the summary statistics for the <code>time_to_work</code> variable in this dataset tells us that the median time to work is 20 minutes. Suppose we’re only interested in whether the time to work is above or below the median. We’ll store this information in a new variable we call <code>time_to_work_cat</code>.</p>
+<strong>numerical -&gt; categorical:</strong> Let’s give one more example, this time creating a new variable based on an existing numerical variable. A quick peek at the summary statistics for the <code class="highlighter-rouge">time_to_work</code> variable in this dataset tells us that the median time to work is 20 minutes. Suppose we’re only interested in whether the time to work is above or below the median. We’ll store this information in a new variable we call <code class="highlighter-rouge">time_to_work_cat</code>.</p>
 
-<pre><code>acs$time_to_work_cat[acs$time_to_work &gt; 20] = "above median"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>acs$time_to_work_cat[acs$time_to_work &gt; 20] = "above median"
 acs$time_to_work_cat[acs$time_to_work &lt;= 20] = "at/below median"
-</code></pre>
+</code></pre></div></div>
 <p><br />
 Once again, we need to ensure that the new variable is treated as a categorical variable (rather than just a character string).</p>
 
-<pre><code>acs$time_to_work_cat = as.factor(acs$time_to_work_cat)
-</code></pre>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>acs$time_to_work_cat = as.factor(acs$time_to_work_cat)
+</code></pre></div></div>
 <p><br />
 We can see in the summary output for this variable the number of people whose time work are above median or at or below median as well as that there were some NAs in the dataset that were left as is.</p>
 
-<pre><code>summary(acs$time_to_work_cat)
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>summary(acs$time_to_work_cat)
    above median at/below median            NA's 
             334             449            1217 
-</code></pre>
+</code></pre></div></div>
 
 <hr />
 
 <p><a name="r10">10. How can I resize my plots in RMarkdown?</a></p>
 
-<p>In order to change the size of the plots in your RMarkdown document you need to add some arguments to the piece of code that sets your chunk. These arguments are <code>fig.width</code> for width of your figure, and <code>fig.height</code> for height of your plot. For example</p>
+<p>In order to change the size of the plots in your RMarkdown document you need to add some arguments to the piece of code that sets your chunk. These arguments are <code class="highlighter-rouge">fig.width</code> for width of your figure, and <code class="highlighter-rouge">fig.height</code> for height of your plot. For example</p>
 
-<pre><code>```
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```
 {r fig.width = 5, fig.height = 3}
 plot(d$var)
 ```
-</code></pre>
+</code></pre></div></div>
 
 <p>will produce a plot that is 5 x 3 (width x height). Play around with the size until you’re happy with it. But don’t make your plots too small, they should still be readable.</p>
 
@@ -518,9 +520,9 @@ plot(d$var)
     </div>
   </div>
 
-  <script src="/courses/Summer15/sta104.01-1/noita/foundation/js/vendor/jquery.js"></script>
-  <script src="/courses/Summer15/sta104.01-1/noita/foundation/js/vendor/fastclick.js"></script>
-  <script src="/courses/Summer15/sta104.01-1/noita/foundation/js/foundation.min.js"></script>
+  <script src="/courses/Summer18/sta104.001-1/noita/foundation/js/vendor/jquery.js"></script>
+  <script src="/courses/Summer18/sta104.001-1/noita/foundation/js/vendor/fastclick.js"></script>
+  <script src="/courses/Summer18/sta104.001-1/noita/foundation/js/foundation.min.js"></script>
   <script>$(document).foundation();</script>
 
   
