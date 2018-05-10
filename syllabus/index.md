@@ -62,17 +62,11 @@ You are encouraged to study with your team members and other classmates. But rem
 
 * * *
 
-### Synchronous virtual meetings:
-
-Synchronous virtual meetings (classes) will be held daily Monday through Friday for 75 minutes. You are responsible for all the material covered in all components of the course, not just the meetings. Please ask questions in class, office-hours or by e-mail if you are struggling (or just curious), do not wait until just before an exam when it may be too late.
-
-*Up to two absences (regardless of reason) will be excused, all following absences will count towards your attendance/participation score.*
-
-* * *
-
 ### Attendance, participation, and peer evaluation:
 
 You are expected to be present at synchronous sessions and actively participate in the discussion. Your attendance and participation during these sessions, as well as your activity on the discussion forum on Piazza will make up a non-insignificant portion of your grade in this class. While I might sometimes call on you during the class discussion, it is your responsibility to be an active participant without being called on. 
+
+*Up to two absences (regardless of reason) will be excused, all following absences will count towards your attendance/participation score.*
 
 Throughout the semester you will also be asked to complete a few peer evaluations. These will be used to ensure that all team members contribute to the success of the group and to address any potential issues early on. If you feel that there are issues within your team, you are encouraged to discuss it with your team members and to bring it to my or your TA's attention. 
 

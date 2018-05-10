@@ -3,7 +3,7 @@ layout: page
 title: Frequently Asked Questions
 ---
 
-This page will be updated as the class progresses with common questions I receive from students. I recommend that you check this page when you have a question to see if it has already been answered. If not, send me an email, and if the answer to your question might benefit the whole class I'll post it here as well. Note that references are to the [OpenIntro Statistics, 2nd Edition](http://www.openintro.org/stat/textbook.php?stat_book=os).
+I recommend that you check this page when you have a question to see if it has already been answered. If not, post it on Piazza if it is not already there. Note that references are to the [OpenIntro Statistics, 2nd Edition](http://www.openintro.org/stat/textbook.php?stat_book=os).
 
 If you have a question about something in the textbook that looks like it might be a typo or doesn't make sense, first check to see if it's been corrected already on the [textbook errata](https://docs.google.com/spreadsheet/ccc?key=0AuDHaDEbiOGkdDhLbXVsZHR4U0RDaUsxR2dQMEJpOFE#gid=0). If not, send me an email about it so that I can confirm whether it's a typo or not, and if it is, it'll be added to the list.
 

@@ -5,7 +5,7 @@ title: Course Information
 
 ### Teaching team:
 
-Professor: [Zach White] - [zachary.m.white@duke.edu](mailto:zachary.m.white@duke.edu)
+Professor: [Zach White](https://stat.duke.edu/people/zach-white) - [zachary.m.white@duke.edu](mailto:zachary.m.white@duke.edu)
 
 * * *
 
@@ -23,21 +23,25 @@ The textbook is freely [available online](http://www.openintro.org/stat/textbook
 
 ### Class meetings: 
 
-Monday - Friday: 11am - 12:15pm
+* Lectures: Monday - Friday: 11am - 12:15pm
+* Labs: Monday, Thursday 12:45-2:00pm
 
+Classes start on Wednesday May 16 (Monday Schedule) and end on Monday June 25.
+
+No class on May 28 due to Memorial Day
 * * *
 
 ### <a name="exams"></a>Exams:
 
-* Midterm 1: TBD
-* Midterm 2: TBD
-* Final: TBD
+* Midterm 1: TBD 11am - 12:15pm (in class)
+* Midterm 2: TBD 11am - 12:15pm (in class)
+* Final: June 24, 11am - 2pm
 
 * * *
 
 ### <a name="oh"></a>Office Hours: 
 
-* Zach: TBD
+* Zach White:TBD
 
 * * *
 
@@ -52,7 +56,7 @@ Monday - Friday: 11am - 12:15pm
 <tr> <td> Performance assessments   </td> <td> 5% </td></tr>
 <tr> <td> Project         </td> <td>  10% </td></tr>
 <tr> <td> Midterm 1        </td> <td> 10% </td></tr>
-<tr> <td> Midterm 2        </td> <td> 10% </td></tr>
+<tr> <td> Midterm 1       </td> <td> 10% </td></tr>
 <tr> <td> Final            </td> <td> 25% </td></tr>
 </table>
 </div>
@@ -61,7 +65,7 @@ Monday - Friday: 11am - 12:15pm
 
 ### Holidays:
 
-* Monday, May 28 - Memorial day
+* Monday, May 25 - Memorial day
 
 * * *
 
