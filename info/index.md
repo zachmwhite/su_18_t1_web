@@ -1,13 +1,11 @@
----
+﻿---
 layout: page
 title: Course Information
 ---
 
 ### Teaching team:
 
-Professor: [Dr. Çetinkaya-Rundel](http://stat.duke.edu/~mc301) - [mine@stat.duke.edu](mailto:mine@stat.duke.edu)
-
-TA: [Andrew Wong](https://stat.duke.edu/people/andrew-wong) - [andrew.wong1@duke.edu](mailto:andrew.wong1@duke.edu)
+Professor: [Zach White] - [zachary.m.white@duke.edu](mailto:zachary.m.white@duke.edu)
 
 * * *
 
@@ -25,21 +23,21 @@ The textbook is freely [available online](http://www.openintro.org/stat/textbook
 
 ### Class meetings: 
 
-Monday - Friday: 11am - 12:30pm
+Monday - Friday: 11am - 12:15pm
 
 * * *
 
 ### <a name="exams"></a>Exams:
 
-* Midterm: Friday, May 29, 11am - 12:30pm (in class)
-* Final: June 24, 11am - 2pm
+* Midterm 1: TBD
+* Midterm 2: TBD
+* Final: TBD
 
 * * *
 
 ### <a name="oh"></a>Office Hours: 
 
-* Dr. Çetinkaya-Rundel: Generally TR 12:30pm - 1:30pm, chages will be announces at the beginning of the week
-* Andrew (TA): TBA
+* Zach: TBD
 
 * * *
 
@@ -53,7 +51,8 @@ Monday - Friday: 11am - 12:30pm
 <tr> <td> Readiness assessments     </td> <td> 10% </td></tr>
 <tr> <td> Performance assessments   </td> <td> 5% </td></tr>
 <tr> <td> Project         </td> <td>  10% </td></tr>
-<tr> <td> Midterm        </td> <td> 20% </td></tr>
+<tr> <td> Midterm 1        </td> <td> 10% </td></tr>
+<tr> <td> Midterm 2        </td> <td> 10% </td></tr>
 <tr> <td> Final            </td> <td> 25% </td></tr>
 </table>
 </div>
@@ -62,7 +61,7 @@ Monday - Friday: 11am - 12:30pm
 
 ### Holidays:
 
-* Monday, May 25 - Memorial day
+* Monday, May 28 - Memorial day
 
 * * *
 

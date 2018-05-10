@@ -64,7 +64,7 @@ You are encouraged to study with your team members and other classmates. But rem
 
 ### Synchronous virtual meetings:
 
-Synchronous virtual meetings (classes) will be held daily Monday through Friday for 90 minutes. Roughly 60 minutes of each class will be devoted to discussion of material and problem solving, and the remaining time will be spent working on labs. You are responsible for all the material covered in all components of the course, not just the meetings. Please ask questions in class, office-hours or by e-mail if you are struggling (or just curious), do not wait until just before an exam when it may be too late.
+Synchronous virtual meetings (classes) will be held daily Monday through Friday for 75 minutes. You are responsible for all the material covered in all components of the course, not just the meetings. Please ask questions in class, office-hours or by e-mail if you are struggling (or just curious), do not wait until just before an exam when it may be too late.
 
 *Up to two absences (regardless of reason) will be excused, all following absences will count towards your attendance/participation score.*
 

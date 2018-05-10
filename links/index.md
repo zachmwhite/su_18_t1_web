@@ -5,11 +5,10 @@ title: Links
 
 ### Links to most frequently used resources for this course:
 
-* [Sakai](https://sakai.duke.edu/portal/site/ef372254-413e-42f6-b414-f8bc91a58fa0)
+* [Sakai](https://sakai.duke.edu)
 * Piazza: To post and answer questions related to course materials (to be posted)
 * [Videos](https://duke.coursera.org/duke-statistics-001/lecture): For viewing videos on the Duke Coursera page (NetID login required)
 * [Learning objectives](https://duke.coursera.org/duke-statistics-001/wiki/learning): For viewing the learning objectives on the Duke Coursera page (NetID login required)
-    * [Answers to Test Yourself questions](https://drive.google.com/?ddrp=1#folders/0B0Y2lFgS9uiDNWhyQjRTei1GbjA): Crowd-sourced answers to Test Yourself questions from the learning objectives. Feel free to add / edit.
 * [OpenIntro Statistics](http://www.openintro.org/stat/textbook.php?stat_book=os): Textbook
 * Probability calculations:
     * [Probability tables](https://www.openintro.org/download.php?file=os2_prob_tables&referrer=/stat/textbook.php)
