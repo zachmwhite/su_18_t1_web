@@ -1,3 +1,12 @@
+---
+title: "App Ex - Comparing means, Pt 1"
+author: "[Enter team name here]"
+output:
+  html_document:
+    fig_height: 4
+    fig_width: 6
+---
+
 **Load data:**
 ```{r}
 
